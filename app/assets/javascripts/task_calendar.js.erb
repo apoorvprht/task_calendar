@@ -1,0 +1,18 @@
+//= require moment.min.js
+//= require jquery-ui.custom.min.js
+//= require fullcalendar.min.js
+
+$(document).ready(function() {
+
+    $('#calendar').fullCalendar({
+        defaultDate: '<%= Date.today %>',
+        editable: false,
+        events: {
+            url: '/tasks.json',
+            error: function() {
+                alert('Could not load your calendar, please try again later.');
+            }
+        }
+    });
+
+});
