@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["apoorv_prht@yahoo.com"]
   spec.summary       = %q{Allow views to include a dynamic calendar.}
   spec.description   = %q{Allow views to include a dynamic calendar.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/apoorvprht/task_calendar"
   spec.license       = "MIT"
 
   spec.files         = Dir["{app,lib,vendor}/**/*"] + ["LICENSE.txt", "README.md"]
